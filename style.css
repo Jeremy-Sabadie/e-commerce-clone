@@ -8,6 +8,8 @@ body {
   width: 100%;
   height: 100%;
   font-family: Montserrat;
+  display: flex;
+  flex-wrap: wrap;
 }
 .hamburger {
   display: none;
@@ -31,15 +33,22 @@ nav {
   list-style: none;
 }
 .li-bis {
-  font-weight: bold
-  background-color: ;
+  width: 15em;
+  height: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: thistle 1px solid;
+  border-top-style: none;
+  font-weight: bold;
+  background-color: #001e69;
 }
 .li-bis:hover {
   background-color: rgb(240, 240, 243);
   cursor: grab;
   color: #396ce4;
 }
-ads>img {
+ads > img {
   object-fit: cover;
 }
 .li-bis {
@@ -65,38 +74,50 @@ input {
   background-color: rgb(233, 227, 219);
 }
 #ads {
-  width: 100%;
+  width: 80%;
   height: 40em;
   object-fit: cover;
   margin: 0;
+}
+article {
+  width: 80%;
+  height: 100em;
+  background-color: white;
 }
 
 aside {
   width: 20%;
   height: 95em;
   margin-top: 0px;
-  
-  
-  margin-left: 80%;
-  background-color:#D9EEF4;
-  display: flex;
-  flex-direction: column;
+  text-align: center;
+
+  background-color: #d9eef4;
 }
-#map{
+#map {
   width: 100%;
   height: 25em;
   object-fit: cover;
-  
+
   margin-top: 0em;
- 
 }
-button{
-  border: 2px solid red;
+button {
+  width: 80%;
+
+  height: 1.5em;
+  border: 2px solid #0a3782;
+  border-radius: 1em;
+  color: #20498e;
+  font-size: 16px;
+  color: #20498e;
 }
-#store{
-  background-color: #D9EEF4;
-
+button:hover {
+  cursor: grab;
+  background-color: #0a3782;
 }
-
-
-
+#store {
+  background-color: #d9eef4;
+}
+aside p {
+  margin: 0;
+  background-color: #0096c9;
+}
