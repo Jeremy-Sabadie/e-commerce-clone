@@ -83,11 +83,22 @@ article {
   width: 80%;
   height: 100em;
   background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.product {
+  width: 10em;
+  height: 20em;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 1em;
 }
 
 aside {
   width: 20%;
-  height: 95em;
+  height: 100em;
   margin-top: 0px;
   text-align: center;
 
@@ -120,4 +131,8 @@ button:hover {
 aside p {
   margin: 0;
   background-color: #0096c9;
+}
+
+/* fin du style por device desktop etdébut du style pour small device */
+@media screen and (max-width: 640px) {
 }
