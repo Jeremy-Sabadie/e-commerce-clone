@@ -2,7 +2,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  background-color: #163782;
 }
 body {
   width: 100%;
@@ -10,6 +9,7 @@ body {
   font-family: Montserrat;
   display: flex;
   flex-wrap: wrap;
+  background-color: #163782;
 }
 .hamburger {
   display: none;
@@ -135,17 +135,21 @@ button {
   border: 2px solid #0a3782;
   border-radius: 1em;
   color: #20498e;
+  margin: 1em;
   font-size: 16px;
   color: #20498e;
+  transition: all 0.2s ease-out;
 }
 button:hover {
   cursor: pointer;
   background-color: #0a3782;
+  color: #d9eef4;
+  transform: scale(1.1);
 }
-#store {
-  background-color: #d9eef4;
-}
-aside p {
+
+background-color: #d9eef4;
+
+#store aside p {
   margin: 0;
   background-color: #0096c9;
 }
@@ -179,6 +183,8 @@ footer ul {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+  }
+  body {
     background-color: #0a3782;
   }
   #ads {
@@ -237,8 +243,10 @@ footer ul {
   #information {
     width: 100%;
     height: 40px;
+    font-size: small;
 
     background-color: slategray;
+    overflow: hidden;
   }
   button {
     width: 100%;
@@ -247,16 +255,11 @@ footer ul {
     font-size: small;
   }
 
-  br {
-    width: 100%;
-    height: 1em;
-    color: grey;
-  }
-
   #map {
     width: 60px;
     height: 80px;
   }
+
   button {
     width: 80%;
     height: 3em;
@@ -267,6 +270,10 @@ footer ul {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+  }
+  footer {
+    width: 100%;
+    height: 200px;
   }
   br {
     width: 100%;
