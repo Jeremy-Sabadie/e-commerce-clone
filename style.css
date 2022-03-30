@@ -160,6 +160,27 @@ footer {
 
   justify-content: space-around;
 }
+form {
+  width: 20em;
+  height: 30em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10em;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  border: gray solid 2px;
+  border-radius: 1em;
+  justify-content: center;
+  align-items: center;
+}
+input {
+  width: 70%;
+  height: 2em;
+  font-size: large;
+
+  margin: 1em;
+}
 footer h4 {
   color: #d9eef4;
 
